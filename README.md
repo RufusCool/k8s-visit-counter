@@ -5,6 +5,8 @@
 
   Aplicação criada em Ruby, utilizado a gem redis para nos comunicar com o Redis e a gem sinatra pra expor uma interface web
 
+# Categorías e Comandos
+
   Mostrar Pods Rodando
 - kubectl get pods
 - watch kubectl get pods -o wide
