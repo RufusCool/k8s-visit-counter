@@ -1,5 +1,5 @@
 loop do
-  puts 'Hello world from V2!'
+  puts 'Ramps V2!'
   STDOUT.flush
   sleep 1
 end
