@@ -20,9 +20,10 @@ kubectl  logs <nome do pod>
 
 #Aplicar Deploy k8s, exemplo abaixo do meu caso, mude para o nome que criou para executar a ação.
 kubectl apply -f visit-counter-deployment.yaml
-# deployment.apps/visit-counter created
+#deployment.apps/visit-counter created
+
 kubectl apply -f visit-counter-service.yaml
-# service/visit-counter-service created
+#service/visit-counter-service created
 
 #Validar Pods e Services
 kubectl get pods,svc
