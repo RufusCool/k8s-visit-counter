@@ -1,3 +1,4 @@
+![Alt text](/relative/path/to/k8s.png?raw=true "Optional Title")
 # k8s-visit-counter
 
   Exemplos ao subir PODs no K8S
