@@ -1,4 +1,4 @@
-![Alt text](/relative/path/to/k8s.png?raw=true "Optional Title")
+![Alt text](https://raw.githubusercontent.com/RufusCool/k8s-visit-counter/main/layout/k8s.png)
 # k8s-visit-counter
 
   Exemplos ao subir PODs no K8S
