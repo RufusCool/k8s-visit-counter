@@ -13,13 +13,13 @@
 - watch kubectl get pods -o wide
 
   Scale
-- kubectl scale deploy -n <nome namespace> visit-counter --replicas=6
+- kubectl scale deploy -n nomenamespace visit-counter --replicas=6
 
   Rollout
-- kubectl rollout restart deploy -n <nome namespace> visit-counter
+- kubectl rollout restart deploy -n nomenamespace visit-counter
 
   Visualizar logs do Pod
-- kubectl  logs <nome do pod>
+- kubectl  logs nomedopod
 
   Aplicar Deploy k8s, exemplo abaixo do meu caso, mude para o nome que criou para executar a ação.
 - kubectl apply -f visit-counter-deployment.yaml
